@@ -1,5 +1,5 @@
 {
-  "events": [
+  "passengers": [
   { "id": 1, "name": "Alice Smith", "age": 28, "airlineId": 1, "airlineName": "Airline A", "airlineCountry": "USA", "trips": 12 },
   { "id": 2, "name": "Bob Johnson", "age": 34, "airlineId": 2, "airlineName": "Airline B", "airlineCountry": "UK", "trips": 8 },
   { "id": 3, "name": "Charlie Lee", "age": 22, "airlineId": 3, "airlineName": "Airline C", "airlineCountry": "Canada", "trips": 5 },
