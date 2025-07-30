@@ -1,19 +1,19 @@
 {
   "events": [
-    { "id": 1, "name": "Alice Smith", "age": 28, "airlineId": 1, "airlineName": "Airline A", "airlineCountry": "USA", "trips": 12, "description": "Frequent flyer from the USA." },
-    { "id": 2, "name": "Bob Johnson", "age": 34, "airlineId": 2, "airlineName": "Airline B", "airlineCountry": "UK", "trips": 8, "description": "Traveler from the United Kingdom." },
-    { "id": 3, "name": "Charlie Lee", "age": 22, "airlineId": 3, "airlineName": "Airline C", "airlineCountry": "Canada", "trips": 5, "description": "Young traveler from Canada." },
-    { "id": 4, "name": "Diana Prince", "age": 30, "airlineId": 4, "airlineName": "Airline D", "airlineCountry": "France", "trips": 15, "description": "Experienced traveler from France." },
-    { "id": 5, "name": "Ethan Hunt", "age": 40, "airlineId": 5, "airlineName": "Airline E", "airlineCountry": "Germany", "trips": 20, "description": "High-volume flyer from Germany." },
-    { "id": 6, "name": "Fiona Gallagher", "age": 27, "airlineId": 6, "airlineName": "Airline F", "airlineCountry": "Australia", "trips": 7, "description": "Adventurous traveler from Australia." },
-    { "id": 7, "name": "George Miller", "age": 36, "airlineId": 7, "airlineName": "Airline G", "airlineCountry": "Japan", "trips": 9, "description": "Business traveler from Japan." },
-    { "id": 8, "name": "Hannah Brown", "age": 25, "airlineId": 8, "airlineName": "Airline H", "airlineCountry": "Italy", "trips": 3, "description": "New traveler from Italy." },
-    { "id": 9, "name": "Ian Curtis", "age": 32, "airlineId": 9, "airlineName": "Airline I", "airlineCountry": "Spain", "trips": 11, "description": "Seasoned traveler from Spain." },
-    { "id": 10, "name": "Julia Roberts", "age": 29, "airlineId": 10, "airlineName": "Airline J", "airlineCountry": "Brazil", "trips": 6, "description": "Explorer from Brazil." },
-    { "id": 11, "name": "Kevin Lee", "age": 31, "airlineId": 11, "airlineName": "Airline K", "airlineCountry": "Thailand", "trips": 13, "description": "Thai frequent flyer." },
-    { "id": 12, "name": "Laura Palmer", "age": 26, "airlineId": 12, "airlineName": "Airline L", "airlineCountry": "Sweden", "trips": 4, "description": "Occasional traveler from Sweden." },
-    { "id": 13, "name": "Mike Ross", "age": 33, "airlineId": 13, "airlineName": "Airline M", "airlineCountry": "Russia", "trips": 10, "description": "Traveler from Russia with legal skills." },
-    { "id": 14, "name": "Nina Simone", "age": 38, "airlineId": 14, "airlineName": "Airline N", "airlineCountry": "South Africa", "trips": 18, "description": "Musical globe-trotter from South Africa." },
-    { "id": 15, "name": "Oscar Wilde", "age": 41, "airlineId": 15, "airlineName": "Airline O", "airlineCountry": "India", "trips": 2, "description": "Occasional traveler and writer from India." }
+    { "id": 1, "name": "Alice Smith", "age": 28, "airlineId": 1, "airlineName": "Airline A", "airlineCountry": "USA", "trips": 12, "description": "Frequent flyer from the USA.", "arrivalAirport": { "latitude": 40.6413, "longitude": -73.7781 } },
+    { "id": 2, "name": "Bob Johnson", "age": 34, "airlineId": 2, "airlineName": "Airline B", "airlineCountry": "UK", "trips": 8, "description": "Traveler from the United Kingdom.", "arrivalAirport": { "latitude": 51.4700, "longitude": -0.4543 } },
+    { "id": 3, "name": "Charlie Lee", "age": 22, "airlineId": 3, "airlineName": "Airline C", "airlineCountry": "Canada", "trips": 5, "description": "Young traveler from Canada.", "arrivalAirport": { "latitude": 43.6777, "longitude": -79.6248 } },
+    { "id": 4, "name": "Diana Prince", "age": 30, "airlineId": 4, "airlineName": "Airline D", "airlineCountry": "France", "trips": 15, "description": "Experienced traveler from France.", "arrivalAirport": { "latitude": 49.0097, "longitude": 2.5479 } },
+    { "id": 5, "name": "Ethan Hunt", "age": 40, "airlineId": 5, "airlineName": "Airline E", "airlineCountry": "Germany", "trips": 20, "description": "High-volume flyer from Germany.", "arrivalAirport": { "latitude": 50.0379, "longitude": 8.5622 } },
+    { "id": 6, "name": "Fiona Gallagher", "age": 27, "airlineId": 6, "airlineName": "Airline F", "airlineCountry": "Australia", "trips": 7, "description": "Adventurous traveler from Australia.", "arrivalAirport": { "latitude": -33.9399, "longitude": 151.1753 } },
+    { "id": 7, "name": "George Miller", "age": 36, "airlineId": 7, "airlineName": "Airline G", "airlineCountry": "Japan", "trips": 9, "description": "Business traveler from Japan.", "arrivalAirport": { "latitude": 35.5494, "longitude": 139.7798 } },
+    { "id": 8, "name": "Hannah Brown", "age": 25, "airlineId": 8, "airlineName": "Airline H", "airlineCountry": "Italy", "trips": 3, "description": "New traveler from Italy.", "arrivalAirport": { "latitude": 41.8003, "longitude": 12.2389 } },
+    { "id": 9, "name": "Ian Curtis", "age": 32, "airlineId": 9, "airlineName": "Airline I", "airlineCountry": "Spain", "trips": 11, "description": "Seasoned traveler from Spain.", "arrivalAirport": { "latitude": 40.4983, "longitude": -3.5676 } },
+    { "id": 10, "name": "Julia Roberts", "age": 29, "airlineId": 10, "airlineName": "Airline J", "airlineCountry": "Brazil", "trips": 6, "description": "Explorer from Brazil.", "arrivalAirport": { "latitude": -23.4356, "longitude": -46.4731 } },
+    { "id": 11, "name": "Kevin Lee", "age": 31, "airlineId": 11, "airlineName": "Airline K", "airlineCountry": "Thailand", "trips": 13, "description": "Thai frequent flyer.", "arrivalAirport": { "latitude": 13.6900, "longitude": 100.7501 } },
+    { "id": 12, "name": "Laura Palmer", "age": 26, "airlineId": 12, "airlineName": "Airline L", "airlineCountry": "Sweden", "trips": 4, "description": "Occasional traveler from Sweden.", "arrivalAirport": { "latitude": 59.6519, "longitude": 17.9186 } },
+    { "id": 13, "name": "Mike Ross", "age": 33, "airlineId": 13, "airlineName": "Airline M", "airlineCountry": "Russia", "trips": 10, "description": "Traveler from Russia with legal skills.", "arrivalAirport": { "latitude": 55.9726, "longitude": 37.4146 } },
+    { "id": 14, "name": "Nina Simone", "age": 38, "airlineId": 14, "airlineName": "Airline N", "airlineCountry": "South Africa", "trips": 18, "description": "Musical globe-trotter from South Africa.", "arrivalAirport": { "latitude": -26.1337, "longitude": 28.2420 } },
+    { "id": 15, "name": "Oscar Wilde", "age": 41, "airlineId": 15, "airlineName": "Airline O", "airlineCountry": "India", "trips": 2, "description": "Occasional traveler and writer from India.", "arrivalAirport": { "latitude": 28.5562, "longitude": 77.1000 } }
   ]
 }
